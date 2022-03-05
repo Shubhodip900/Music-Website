@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(262-2626326_country-music-wallpaper-1500x1068-background-images-for-music.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  width: 80%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(4, 4, 8);
+  font-size: 20px;
+  font-weight: bolder;
+}
+.left {
+  margin: 6%;
+  
+}
+.left h1 {
+  
+  font-size: 90px;
+  color: whitesmoke;
+  line-height: 5px;
+  padding-bottom: 90px;
+  display: flex;
+  
+  float: left;
+}
+.songList {
+  margin-top: 80px;
+  margin-left: 590px;
+  margin-right: 300px;
+}
+.songList h3 {
+  font-size: 29px;
+}
+.song {
+  margin: 10px 10px;
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  background-color: rgba(66, 66, 36, 0.527);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+.songName {
+  width: 30px;
+  cursor: pointer;
+}
+.right {
+  float: right;
+  margin-right: 6%;
+  margin-top: -180px;
+  align-items: center;
+  justify-content: space-between;
+}
+#songTime {
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 6%;
+  padding: 15px 5pxs;
+  cursor: pointer;
+}
+.icons {
+  width: 80%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#icon1 {
+  width: 60px;
+  cursor: pointer;
+  margin: 0 15px;
+}
+#icon2 {
+  width: 60px;
+  cursor: pointer;
+  margin: 0 15px;
+}
+#icon3 {
+  width: 60px;
+  cursor: pointer;
+  margin: 0 15px;
+}

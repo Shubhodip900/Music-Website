@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MUSIC</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <ul>
+          <li><a href="https://www.google.com" target="blank">Home</a></li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/shubhodip-pal-415488214/"
+              target="blank"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/shubhodip-pal-415488214/"
+              target="blank"
+              >Connect</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/shubhodip-pal-415488214/"
+              target="blank"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/shubhodip-pal-415488214/"
+              target="blank"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="left">
+          <h1>THE REAL SOUND</h1>
+          <div>
+            <div class="songList">
+              <h3>Available Songs</h3>
+              <div class="song">
+                <p>Ray of Light</p>
+                <img src="circle-play-solid.svg" class="songName" id="0" />
+              </div>
+              <div class="song">
+                <p>Machayenge</p>
+                <img src="circle-play-solid.svg" class="songName" id="1" />
+              </div>
+              <div class="song">
+                <p>Syn Cole-Time</p>
+                <img src="circle-play-solid.svg" class="songName" id="2" />
+              </div>
+              <div class="song">
+                <p>52 Gaj Ka daman</p>
+                <img src="circle-play-solid.svg" class="songName" id="3" />
+              </div>
+              <div class="song">
+                <p>chan-Tak-Rah</p>
+                <img src="circle-play-solid.svg" class="songName" id="4" />
+              </div>
+              <div class="song">
+                <p>Find You There</p>
+                <img src="circle-play-solid.svg" class="songName" id="5" />
+              </div>
+              <div class="song">
+                <p>Karna chaati grind</p>
+                <img src="circle-play-solid.svg" class="songName" id="6" />
+              </div>
+              <div class="song">
+                <p>Kacha Badam</p>
+                <img src="circle-play-solid.svg" class="songName" id="7" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <input type="range" id="songTime" value="0" min="0" max="100" />
+          <div class="icons">
+            <img src="backward-solid.svg" id="icon1" />
+            <img src="circle-play-solid.svg" id="icon2" />
+            <img src="forward-solid.svg" id="icon3" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio loop="loop" id="mySong">
+      <source
+        src="songs\Zack Merci - Ray of Light (feat. Nieko) [NCS Release].mp3"
+        type="audio/mp3"
+      />
+    </audio>
+
+    <script src="music.js"></script>
+  </body>
+</html>
